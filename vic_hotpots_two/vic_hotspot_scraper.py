@@ -3,6 +3,10 @@ import pandas as pd
 import os 
 from modules.yachtCharter import yachtCharter
 
+## GRAB NEW DATA
+
+print("Grabbing Vic hotspot chart")
+
 here = os.path.dirname(__file__)
 file_name = 'vic-hotspot_download.csv'
 
@@ -10,10 +14,12 @@ ceevee = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSNouXrJ8UQ-tn6bAxzrOd
 
 r = requests.get(ceevee)
 
+## SAVE DATA LOCALLY
+
 with open(f"{here}/{file_name}", 'wb') as f:
     f.write(r.content)
 
-print("hi")
+print("Parsing Vic Hotspot data")
 
 df = pd.read_csv(f"{here}/{file_name}")
 
@@ -24,9 +30,11 @@ df = df.sort_values(by='Added_date_dtm', ascending=False)
 df = df[['Suburb', 'Site_title','Exposure_date', 'Exposure_time',
        'Notes', 'Added_date', 'Advice_instruction' ]]
 
-
-
 df.columns = ['Suburb', 'Site', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Health advice']
+
+### MAKE CHART
+
+print("Making Vic hotspot chart")
 
 def makeTable(df):
 	

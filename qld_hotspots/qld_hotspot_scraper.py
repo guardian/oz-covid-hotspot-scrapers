@@ -4,6 +4,8 @@ from modules.yachtCharter import yachtCharter
 import os
 import re
 
+print("Grabbing QLD hotspot data")
+
 data_path = os.path.dirname(__file__) 
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
@@ -14,6 +16,8 @@ table_labels = ["Close contact", "Casual contact", "Historical casual contact"]
 
 # print(tables[2])
 # print(len(tables))
+
+print("Parsing QLD hotspot data")
 
 listo = []
 for i in range(0, len(table_labels)):
@@ -59,8 +63,12 @@ df.dropna(inplace=True)
 # df['Arrival sort'] = df['Arrival sort'].dt.strftime("%H:%M")
 # df['Departure sort'] = df['Departure sort'].dt.strftime("%H:%M")
 
+
+
 with open(f"{data_path}/hotspots.csv", "w") as f:
     df.to_csv(f, index=False, header=True)
+
+print("Making QLD hotspot chart")
 
 def makeTestingLine(df):
 	

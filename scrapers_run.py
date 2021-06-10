@@ -1,0 +1,4 @@
+
+
+import vic_hotpots_two.vic_hotspot_scraper
+import qld_hotspots.qld_hotspot_scraper
