@@ -8,10 +8,10 @@ file_name = 'vic-hotspot_download.csv'
 
 ceevee = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSNouXrJ8UQ-tn6bAxzrOdLINuoOtn01fSjooql0O3XQlj4_ldFiglzOmDm--t2jy1k-ABK6LMzPScs/pub?gid=1075463302&single=true&output=csv'
 
-# r = requests.get(ceevee)
+r = requests.get(ceevee)
 
-# with open(f"{here}/{file_name}", 'wb') as f:
-#     f.write(r.content)
+with open(f"{here}/{file_name}", 'wb') as f:
+    f.write(r.content)
 
 print("hi")
 
