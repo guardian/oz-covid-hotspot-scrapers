@@ -1,12 +1,12 @@
-import pandas as pd 
-import requests 
+import pandas as pd
+import requests
 from modules.yachtCharter import yachtCharter
 import os
 import re
 
 print("Grabbing QLD hotspot data")
 
-data_path = os.path.dirname(__file__) 
+data_path = os.path.dirname(__file__)
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 headers = {'user-agent': 'The Guardian'}
@@ -71,13 +71,13 @@ with open(f"{data_path}/hotspots.csv", "w") as f:
 print("Making QLD hotspot chart")
 
 def makeTestingLine(df):
-	
+
     template = [
             {
                 "title": "Queensland Covid Hotspots",
                 "subtitle": f"""""",
                 "footnote": "",
-                "source": "| Sources: Queensland Department of Health",
+                "source": "Queensland Department of Health",
                 "yScaleType":"",
                 "minY": "0",
                 "maxY": "",
@@ -96,9 +96,7 @@ def makeTestingLine(df):
     labels = []
 
 
-    yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}], 
+    yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}],
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="qld_covid_hotspots")
 
 makeTestingLine(df)
-
-
