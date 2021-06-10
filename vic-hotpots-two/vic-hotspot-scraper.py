@@ -35,7 +35,7 @@ def makeTable(df):
                 "title": "Victoria Covid Hotspots",
                 "subtitle": f"""""",
                 "footnote": "",
-                "source": "| Sources: Victorian government",
+                "source": "Victorian government",
                 "yScaleType":"",
                 "minY": "0",
                 "maxY": "",
