@@ -32,6 +32,12 @@ df = df[['Suburb', 'Site_title','Exposure_date', 'Exposure_time',
 
 df.columns = ['Suburb', 'Site', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Health advice']
 
+print(df.loc[df['Health advice'].isna()])
+
+# Fix the null values from Maidstone
+df['Health advice'] = df['Health advice'].fillna(value='Anyone who has visited this location during these times must get tested immediately and quarantine for 14 days from the exposure.')
+# print(df['Health advice'].unique())
+
 ### MAKE CHART
 
 print("Making Vic hotspot chart")
