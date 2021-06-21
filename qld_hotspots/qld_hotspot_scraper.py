@@ -6,13 +6,18 @@ import re
 
 print("Grabbing QLD hotspot data")
 
+# testo = "_test"
+testo = ''
+
 data_path = os.path.dirname(__file__)
 pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 headers = {'user-agent': 'The Guardian'}
 html = requests.get('https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/contact-tracing', headers=headers).text
 tables = pd.read_html(html)
-table_labels = ["Close contact", "Casual contact", "Historical casual contact"]
+# table_labels = ["Close contact", "Casual contact", "Historical casual contact"]
+
+table_labels = ["Recent close contacts", "Low risk contacts", "Close contacts", "Casual contacts"]
 
 # print(tables[2])
 # print(len(tables))
@@ -64,7 +69,8 @@ df.dropna(inplace=True)
 # df['Departure sort'] = df['Departure sort'].dt.strftime("%H:%M")
 
 
-
+# print(df)
+# print(df.columns)
 with open(f"{data_path}/hotspots.csv", "w") as f:
     df.to_csv(f, index=False, header=True)
 
@@ -97,6 +103,6 @@ def makeTestingLine(df):
 
 
     yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}],
-    options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="qld_covid_hotspots")
+    options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName=f"qld_covid_hotspots{testo}")
 
 makeTestingLine(df)
