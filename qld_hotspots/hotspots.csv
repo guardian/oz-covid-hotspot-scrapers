@@ -1,24 +1,46 @@
 Date,Place,Suburb,Arrival time,Departure time,Type
-Saturday 19 June 2021,DFO Brisbane (Airport) 18th Avenue,Brisbane Airport,4pm,4.30pm,Recent close contacts
-Saturday 19 June 2021,Brisbane Portuguese Family CentreUnit 3/1449 Boundary Road,Ellen Grove,7pm,Close,Recent close contacts
-Saturday 19 June 2021,Brisbane CBD,Brisbane City,5pm,6pm,Low risk contacts
-Saturday 5 June 2021,McDonalds GoondiwindiBP Complex Cunningham Hwy,Goondiwindi,7.25am,8am,Close contacts
-Sunday 6 June 2021,The Pocket Espresso Bar - dine in only 6 Seaview Terrace,Moffat Beach,1.55pm,2.30pm,Close contacts
-Sunday 6 June 2021,Coffee Cat on Kings Beach 4/8 Levuka Ave,Kings Beach,3.20pm,4.40pm,Close contacts
-Monday 7 June 2021,"The Coffee Club - Caloundra Shopping Centre (formerly Stocklands Shopping Centre) Shop 30 & 31, 47 Bowman Rd",Caloundra,10.50am,11.05am,Close contacts
-Monday 7 June 2021,Both female and male toilets near JB Hi-Fi - Kawana Shoppingworld 119 Point Cartwright Dr,Buddina,12.50pm,1.15pm,Close contacts
-Monday 7 June 2021,Foodcourt - Kawana Shoppingworld 119 Point Cartwright Dr,Buddina,1.30pm,2.20pm,Close contacts
-Monday 7 June 2021,"Gloria Jeans, Kawana Shopping WorldShop 401, Kawana Shoppingworld, 119 Point Cartwright Dr",Buddina,1.30pm,2.20pm,Close contacts
-Monday 7 June 2021,Both female and male toilets near JB Hi-Fi - Kawana Shoppingworld 119 Point Cartwright Dr,Buddina,2.24pm,2.28pm,Close contacts
-Tuesday 8 June 2021,Male toilet near IGA Baringa White's Supa IGA 1 Edwards Terrace,Baringa,3.45pm,3.55pm,Close contacts
-Tuesday 8 June 2021,Coffee shop inside Baringa White's Supa IGA 1 Edwards Terrace,Baringa,3.45pm,4pm,Close contacts
-Tuesday 8 June 2021,Female toilets near IGA Baringa White's Supa IGA 1 Edwards Terrace,Baringa,4pm,4.15pm,Close contacts
-Saturday 5 June 2021,Caltex Super Petrol Station ToowoombaRuthven and James st (Eastern side of Ruthven),Toowoomba,10.30am,10.35am,Casual contacts
-Sunday 6 June 2021,Sunnys @ Moffat 10 Seaview Terrace,Moffat Beach,1.55pm,2.30pm,Casual contacts
-Monday 7 June 2021,Caloundra Shopping Centre (formerly Stocklands Shopping Centre) 47 Bowman Rd,Caloundra,10.30am,11.45am,Casual contacts
-Monday 7 June 2021,Kmart - Women's section & self check out - Caloundra Shopping Centre (formerly Stocklands Shopping Centre) Cnr Bowman Rd & First Ave,Caloundra,11.05am,11.35am,Casual contacts
-Monday 7 June 2021,Bunnings Caloundra Bathroom aisle and self check out 54 Caloundra Rd,Caloundra,12pm,12.40pm,Casual contacts
-Monday 7 June 2021,JB Hi-Fi - Kawana Shoppingworld 119 Point Cartwright Dr,Buddina,1.10pm,1.40pm,Casual contacts
-Monday 7 June 2021,Coffee club at Kawana Shopping World 119 Point Cartwright Dr,Buddina,1.22pm,1.25pm,Casual contacts
-Tuesday 8 June 2021,Bunnings Caloundra Bathroom Aisle 54 Caloundra Rd,Caloundra,11.20am,11.45am,Casual contacts
-Tuesday 8 June 2021,IGA Baringa White's Supa IGA 1 Edwards Terrace,Baringa,3.45pm,4.15pm,Casual contacts
+Saturday 19 June 2021,"Cotton on, DFO Brisbane (Airport) 18th Avenue",Brisbane Airport,4.10pm,4.30pm,Close contacts
+Saturday 19 June 2021,Brisbane Portuguese Family CentreUnit 3/1449 Boundary Road,Ellen Grove,7pm,Close,Close contacts
+Monday 21 June 2021,Anytime Fitness Hamilton 2 Harbour Road,Hamilton,TBA,TBA,Close contacts
+Tuesday 22 June 2021,McDonald's Glass House Mountains 4288 Bruce Highway,Coochin Creek,5.45am,6am,Close contacts
+Tuesday 22 June 2021,"Good Life Gym Fortitude Valley Homemaker The Valley NorthMontpelier Road &, Wickham Street",Fortitude Valley,7.30am,9.45am,Close contacts
+Tuesday 22 June 2021,Miracle Worker massage & Holistic Therapies 79 Russell Street,West End,9.30am,5pm,Close contacts
+Tuesday 22 June 2021,Anytime Fitness Hamilton 2 Harbour Road,Hamilton,4.15pm,5.15pm,Close contacts
+Tuesday 22 June 2021,Coles Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,6pm,6.45pm,Close contacts
+Wednesday 23 June 2021,McDonald's Glass House Mountains 4288 Bruce Highway,Coochin Creek,6am,6.15am,Close contacts
+Wednesday 23 June 2021,Miracle Worker massage & Holistic Therapies 79 Russell Street,West End,10am,5pm,Close contacts
+Wednesday 23 June 2021,Anytime Fitness Hamilton 2 Harbour Road,Hamilton,4pm,5.30pm,Close contacts
+Wednesday 23 June 2021,Goodlife Health Clubs West End - West Village 35 Mollison Street,West End,5.15pm,7.15pm,Close contacts
+Thursday 24 June 2021,Ampol Petrol Station 132a East-West Arterial Road,Hendra,6.55am,7.15am,Close contacts
+Thursday 24 June 2021,"Zarraffas Coffee Hendra 538 Nudgee Road or, 100 East-West Arterial Road",Hendra,6.55am,7.15am,Close contacts
+Thursday 24 June 2021,Hendra Post Office 355 Nudgee Road,Hendra,7.10am,7.30am,Close contacts
+Thursday 24 June 2021,Miracle Worker massage & Holistic Therapies 79 Russell Street,West End,12.15pm,5.30pm,Close contacts
+Thursday 24 June 2021,Guzman y GomezShop 1/18 Stamford Road,Indooroopilly,7.45pm,8pm,Close contacts
+Friday 25 June 2021,Chez Nous Cafe 160 Roma Street,Brisbane City,8.15am,8.30am,Close contacts
+Friday 25 June 2021,Market Organics 10/620 Moggill Road,Chapel Hill,9.10am,9.45am,Close contacts
+Friday 25 June 2021,"Commonwealth Bank of Australia, Indooroopilly Shopping Centre 322 Moggill Road",Indooroopilly,9.55am,10.25am,Close contacts
+Friday 25 June 2021,"JB HIFI, Indooroopilly Shopping Centre 322 Moggill Road",Indooroopilly,10.10am,10.25am,Close contacts
+Friday 25 June 2021,Unhas Chic Salon 8/204 Alice Street,Brisbane City,12.30pm,2.30pm,Close contacts
+Friday 25 June 2021,Woolworths Metro Teneriffe 105-109 Commercial Road,Teneriffe,1pm,1.15pm,Close contacts
+Friday 25 June 2021,"Merlo CoffeeLevel 2, Virgin Food Court, Domestic Terminal",Brisbane Airport,1.55pm,2.15pm,Close contacts
+Friday 25 June 2021,"Female Toilets, left of Virgin Food Court (facing food court) Level 2, near Virgin Food Court, Domestic Terminal",Brisbane Airport,2.05pm,2.15pm,Close contacts
+Friday 25 June 2021,Woolworths GasWorks 76 Skyring Terrace,Newstead,2.55pm,3.10pm,Close contacts
+Friday 25 June 2021,United Petroleum - Warwick 86 Wallace Street,Warwick,5.30pm,5.45pm,Close contacts
+Friday 25 June 2021,"Female Toilet between Gate 38 and Gate 39 (behind Mecca Maxima and Peter Alexander stores) - Virgin TerminalLevel 2, Domestic Terminal",Brisbane Airport,7.20pm,7.30pm,Close contacts
+Tuesday 22 June 2021,"Good Life Gym Fortitude Valley, Homemaker The Valley NorthMontpelier Road &, Wickham Street",Fortitude Valley,9.45am,12.30pm,Casual contacts
+Wednesday 23 June 2021,Goodlife Health Clubs West End - West Village 35 Mollison Street,West End,7.15pm,11.59pm,Casual contacts
+Thursday 24 June 2021,EmporiumAnn Street,Fortitude Valley,3.30pm,4.30pm,Casual contacts
+Thursday 24 June 2021,So Sushi - EmporiumAnn Street,Fortitude Valley,3.45pm,4.30pm,Casual contacts
+Friday 25 June 2021,"Gate 50 - Virgin TerminalLevel 2, Domestic Terminal",Brisbane Airport,7.18pm,7.30pm,Casual contacts
+Saturday 19 June 2021,DFO Brisbane (Airport) 18th Avenue,Brisbane Airport,4pm,4.30pm,Casual but low risk contacts
+Saturday 19 June 2021,"Escape 2 Hiking Shop, DFO Brisbane (Airport) 18th Avenue",Brisbane Airport,10am,6pm,Low risk contacts
+Saturday 19 June 2021,Lobby (incl. female toilets) of Park Regis Hotel 293 North Quay,Brisbane City,4.50pm,5.15pm,Low risk contacts
+Saturday 19 June 2021,Brisbane CBDVicinity of Queen Street Mall,Brisbane City,5pm,6pm,Low risk contacts
+Sunday 20 June 2021,Charlie's Raw Squeeze 730 Sandgate Road,Clayfield,9am,9.30am,Low risk contacts
+Sunday 20 June 2021,"Escape 2 Hiking Shop, DFO Brisbane (Airport) 18th Avenue",Brisbane Airport,10am,3pm,Low risk contacts
+Sunday 20 June 2021,Royal Brisbane & Women's Hospital Fever ClinicButterfield Street,Herston,3.30pm,4.30pm,Low risk contacts
+Tuesday 22 June 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,6pm,6.45pm,Low risk contacts
+Friday 25 June 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,9.45am,10.30am,Low risk contacts
+Friday 25 June 2021,"Virgin TerminalLevel 2, Domestic Terminal",Brisbane Airport,1.30pm,2.30pm,Low risk contacts
+Friday 25 June 2021,Royal Brisbane & Women's Hospital Fever ClinicButterfield Street,Herston,4pm,5pm,Low risk contacts
+Friday 25 June 2021,Ripley McDonald's (Drive through only) 332 Ripley Road,Ripley,4.07pm,4.09pm,Low risk contacts
