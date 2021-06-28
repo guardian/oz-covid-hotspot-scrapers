@@ -42,7 +42,7 @@ tables = pd.read_html(html)
 listo = []
 
 for i in range(0,len(callums)):
-    table = tables[i]
+    table = tables[i].copy()
 
     if table.columns[0] == 0:
         table.columns = table.iloc[0]
