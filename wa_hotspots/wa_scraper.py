@@ -87,4 +87,4 @@ def makeTable(df):
     yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}], 
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="wa_covid_hotspots")
 
-# makeTable(final)
+makeTable(final)
