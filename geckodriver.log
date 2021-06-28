@@ -158,3 +158,17 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624855878590	geckodriver	INFO	Listening on 127.0.0.1:58735
+1624855878599	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile5Ch6Gm"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855878944	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile5Ch6Gm/search.json.mozlz4", (void 0)))
+1624855879793	Marionette	INFO	Listening on port 58744
+1624855879849	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement

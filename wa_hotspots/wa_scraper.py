@@ -48,9 +48,13 @@ for i in range(0,len(callums)):
 final = pd.concat(listo)
 
 final['Date'] = pd.to_datetime(final['Date'])
+
+final = final.sort_values(by="Date", ascending=False)
 final['Date'] = final['Date'].dt.strftime('%d/%m/%Y')
 
-# print(final)
+
+
+print(final)
 
 print("Making WA hotspot chart")
 
@@ -83,4 +87,4 @@ def makeTable(df):
     yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}], 
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="wa_covid_hotspots")
 
-makeTable(final)
+# makeTable(final)
