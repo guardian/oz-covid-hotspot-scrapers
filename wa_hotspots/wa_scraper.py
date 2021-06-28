@@ -41,7 +41,8 @@ for i in range(0,len(callums)):
     if table.columns[0] == 0:
         table.columns = table.iloc[0]
         table = table[1:]
-        table['Health advice'] = callums[i]
+    
+    table['Health advice'] = callums[i]
 
     listo.append(table)
 

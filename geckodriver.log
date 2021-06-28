@@ -182,3 +182,7 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1624855939967	Marionette	INFO	Listening on port 59090
 1624855940045	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
