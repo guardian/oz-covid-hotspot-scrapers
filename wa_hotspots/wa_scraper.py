@@ -1,5 +1,5 @@
-import pandas as pd 
-import os 
+import pandas as pd
+import os
 from bs4 import BeautifulSoup as bs
 from modules.yachtCharter import yachtCharter
 
@@ -10,17 +10,23 @@ here = os.path.dirname(__file__)
 data_path = os.path.dirname(__file__) + "/data/"
 output_path = os.path.dirname(__file__) + "/output/"
 
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+# from selenium import webdriver
+# from selenium.webdriver.firefox.options import Options
+import requests
 
 urlo = 'https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases'
 
-options = Options()
-options.headless = True
-driver = webdriver.Firefox(options=options)
-driver.get(urlo)
 
-html = driver.page_source
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+r = requests.get(urlo, headers=headers, verify=False)
+html = r.text
+
+# options = Options()
+# options.headless = True
+# driver = webdriver.Firefox(options=options)
+# driver.get(urlo)
+
+# html = driver.page_source
 
 ## GRAB THE HEADLINES FROM THE COLLAPSABLE BUTTONS
 soup = bs(html, 'html.parser')
@@ -41,7 +47,7 @@ for i in range(0,len(callums)):
     if table.columns[0] == 0:
         table.columns = table.iloc[0]
         table = table[1:]
-    
+
     table['Health advice'] = callums[i]
 
     listo.append(table)
@@ -57,7 +63,7 @@ final['Date'] = final['Date'].dt.strftime('%d/%m/%Y')
 print("Making WA hotspot chart")
 
 def makeTable(df):
-	
+
     template = [
             {
                 "title": "Western Australia Covid Hotspots",
@@ -82,7 +88,7 @@ def makeTable(df):
     labels = []
 
 
-    yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}], 
+    yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}],
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="wa_covid_hotspots")
 
 makeTable(final)
