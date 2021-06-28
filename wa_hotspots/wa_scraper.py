@@ -2,7 +2,10 @@ import pandas as pd
 import os
 from bs4 import BeautifulSoup as bs
 from modules.yachtCharter import yachtCharter
+import requests
+from requests.packages import urllib3
 
+urllib3.disable_warnings()
 
 print("Grabbing WA hotspot chart")
 
@@ -12,7 +15,7 @@ output_path = os.path.dirname(__file__) + "/output/"
 
 # from selenium import webdriver
 # from selenium.webdriver.firefox.options import Options
-import requests
+
 
 urlo = 'https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases'
 
