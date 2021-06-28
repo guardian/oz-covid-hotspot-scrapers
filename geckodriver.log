@@ -1,0 +1,160 @@
+1624854774818	geckodriver	INFO	Listening on 127.0.0.1:52530
+1624854775833	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4py4jH"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854776143	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4py4jH/search.json.mozlz4", (void 0)))
+1624854776993	Marionette	INFO	Listening on port 52550
+1624854777087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624854827291	geckodriver	INFO	Listening on 127.0.0.1:52861
+1624854828306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileRHE6Th"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854828627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileRHE6Th/search.json.mozlz4", (void 0)))
+1624854829461	Marionette	INFO	Listening on port 52876
+1624854829565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624854883791	geckodriver	INFO	Listening on 127.0.0.1:53207
+1624854883798	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilecFlFyK"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854884090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilecFlFyK/search.json.mozlz4", (void 0)))
+1624854884891	Marionette	INFO	Listening on port 53216
+1624854884933	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624854924963	geckodriver	INFO	Listening on 127.0.0.1:53478
+1624854924970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilexdW2fN"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854925258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilexdW2fN/search.json.mozlz4", (void 0)))
+1624854926082	Marionette	INFO	Listening on port 53487
+1624854926105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624854951193	geckodriver	INFO	Listening on 127.0.0.1:53668
+1624854952208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilekIKE32"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854952533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilekIKE32/search.json.mozlz4", (void 0)))
+1624854953344	Marionette	INFO	Listening on port 53684
+1624854953446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624854964333	geckodriver	INFO	Listening on 127.0.0.1:53804
+1624854965346	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileR10698"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624854965669	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileR10698/search.json.mozlz4", (void 0)))
+1624854966544	Marionette	INFO	Listening on port 53820
+1624854966594	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624855011917	geckodriver	INFO	Listening on 127.0.0.1:54095
+1624855011925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilepifTMG"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855012225	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilepifTMG/search.json.mozlz4", (void 0)))
+1624855013039	Marionette	INFO	Listening on port 54104
+1624855013073	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624855056409	geckodriver	INFO	Listening on 127.0.0.1:54375
+1624855056418	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile13ehPP"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855056726	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile13ehPP/search.json.mozlz4", (void 0)))
+1624855057528	Marionette	INFO	Listening on port 54384
+1624855057569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624855081734	geckodriver	INFO	Listening on 127.0.0.1:54563
+1624855081743	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4qnNN2"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855082032	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4qnNN2/search.json.mozlz4", (void 0)))
+1624855082849	Marionette	INFO	Listening on port 54572
+1624855082889	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624855093808	geckodriver	INFO	Listening on 127.0.0.1:54692
+1624855093814	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilezVjCxr"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855094115	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilezVjCxr/search.json.mozlz4", (void 0)))
+1624855094918	Marionette	INFO	Listening on port 54705
+1624855094962	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+1624855270716	geckodriver	INFO	Listening on 127.0.0.1:55625
+1624855270725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileof6gU5"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855271042	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileof6gU5/search.json.mozlz4", (void 0)))
+1624855271889	Marionette	INFO	Listening on port 55634
+1624855271979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624855324680	geckodriver	INFO	Listening on 127.0.0.1:55961
+1624855325691	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4lTaW8"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855326039	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile4lTaW8/search.json.mozlz4", (void 0)))
+1624855326870	Marionette	INFO	Listening on port 55978
+1624855326936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624855480051	geckodriver	INFO	Listening on 127.0.0.1:56775
+1624855480059	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilexCaBRQ"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855480390	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilexCaBRQ/search.json.mozlz4", (void 0)))
+1624855481350	Marionette	INFO	Listening on port 56784
+1624855481410	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1624855573662	geckodriver	INFO	Listening on 127.0.0.1:57272
+1624855573671	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilezIRfha"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1624855573989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilezIRfha/search.json.mozlz4", (void 0)))
+1624855574820	Marionette	INFO	Listening on port 57281
+1624855574921	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://healthywa.wa.gov.au/combres.axd/healthyWAJs/340574901/, line 39: unreachable code after return statement
