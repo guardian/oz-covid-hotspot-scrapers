@@ -17,7 +17,7 @@ html = requests.get('https://www.qld.gov.au/health/conditions/health-alerts/coro
 tables = pd.read_html(html)
 # table_labels = ["Close contact", "Casual contact", "Historical casual contact"]
 
-table_labels = ["Close contacts", "Casual contacts", "Casual but low risk contacts", "Low risk contacts"]
+table_labels = ["Close contacts", "Casual contacts", "Low risk contacts"]
 
 # print(tables[2])
 # print(len(tables))
