@@ -45,9 +45,12 @@ print(df.columns)
 df['Health advice'] = df['Health advice'].fillna(value='Anyone who has visited this location during these times must get tested immediately and quarantine for 14 days from the exposure.')
 # print(df['Health advice'].unique())
 
-### MAKE CHART
 
-print("Making Vic hotspot chart")
+## FILL NONES WITH "NA"
+
+df['Street Address'] = df['Street Address'].fillna("N/A")
+
+### MAKE CHART
 
 def makeTable(df):
 	
