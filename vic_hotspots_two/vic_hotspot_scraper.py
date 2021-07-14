@@ -7,6 +7,9 @@ from modules.yachtCharter import yachtCharter
 
 print("Grabbing Vic hotspot chart")
 
+# testo = '_'
+testo = ''
+
 here = os.path.dirname(__file__)
 file_name = 'vic-hotspot_download.csv'
 
@@ -23,15 +26,19 @@ print("Parsing Vic Hotspot data")
 
 df = pd.read_csv(f"{here}/{file_name}")
 
+print(df.columns)
+
 df['Added_date_dtm'] = pd.to_datetime(df['Added_date_dtm'])
 
 df = df.sort_values(by='Added_date_dtm', ascending=False)
 
-df = df[['Suburb', 'Site_title','Exposure_date', 'Exposure_time',
+df = df[['Suburb', 'Site_title','Site_streetaddress', 'Exposure_date', 'Exposure_time',
        'Notes', 'Added_date', 'Advice_instruction' ]]
 
-df.columns = ['Suburb', 'Site', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Health advice']
+df.columns = ['Suburb', 'Site', 'Street Address', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Health advice']
 
+print(df)
+print(df.columns)
 # print(df.loc[df['Health advice'].isna()])
 
 # Fix the null values from Maidstone
@@ -69,6 +76,6 @@ def makeTable(df):
 
 
     yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}], 
-    options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName="vic_covid_hotspots")
+    options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName=f"vic_covid_hotspots{testo}")
 
 makeTable(df)
