@@ -32,13 +32,15 @@ df['Added_date_dtm'] = pd.to_datetime(df['Added_date_dtm'])
 
 df = df.sort_values(by='Added_date_dtm', ascending=False)
 
+df['Tier'] = df['Advice_title'].str.split(" - ").str[0]
+
+
 df = df[['Suburb', 'Site_title','Site_streetaddress', 'Exposure_date', 'Exposure_time',
-       'Notes', 'Added_date', 'Advice_instruction' ]]
+       'Notes', 'Added_date', 'Tier', 'Advice_instruction' ]]
 
-df.columns = ['Suburb', 'Site', 'Street Address', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Health advice']
+df.columns = ['Suburb', 'Site', 'Street Address', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Tier', 'Health advice']
 
-print(df)
-print(df.columns)
+
 # print(df.loc[df['Health advice'].isna()])
 
 # Fix the null values from Maidstone
