@@ -26,7 +26,7 @@ print("Parsing Vic Hotspot data")
 
 df = pd.read_csv(f"{here}/{file_name}")
 
-print(df.columns)
+# print(df.columns)
 
 df['Added_date_dtm'] = pd.to_datetime(df['Added_date_dtm'])
 
