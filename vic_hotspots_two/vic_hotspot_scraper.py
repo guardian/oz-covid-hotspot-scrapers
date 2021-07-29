@@ -32,21 +32,24 @@ df['Added_date_dtm'] = pd.to_datetime(df['Added_date_dtm'])
 
 df = df.sort_values(by='Added_date_dtm', ascending=False)
 
-df['Tier'] = df['Advice_title'].str.split(" - ").str[0]
+# df['Tier'] = df['Advice_title'].str.split(" - ").str[0]
+df['Tier'] = df['Advice_title']
 
+df['Tier'] = df['Tier'] + ". See notes."
 
 df = df[['Suburb', 'Site_title','Site_streetaddress', 'Exposure_date', 'Exposure_time',
-       'Notes', 'Added_date', 'Tier', 'Advice_instruction' ]]
+       'Notes', 'Added_date', 'Tier']]
 
-df.columns = ['Suburb', 'Site', 'Street Address', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Tier', 'Health advice']
+df.columns = ['Suburb', 'Site', 'Street Address', 'Exposure day', 'Exposure time', 'Notes', 'Date added', 'Tier']
 
 
 # print(df.loc[df['Health advice'].isna()])
 
 # Fix the null values from Maidstone
-df['Health advice'] = df['Health advice'].fillna(value='Anyone who has visited this location during these times must get tested immediately and quarantine for 14 days from the exposure.')
+# df['Health advice'] = df['Health advice'].fillna(value='Anyone who has visited this location during these times must get tested immediately and quarantine for 14 days from the exposure.')
 # print(df['Health advice'].unique())
 
+# print(df['Health advice'].unique())
 
 ## FILL NONES WITH "NA"
 
@@ -60,8 +63,10 @@ def makeTable(df):
             {
                 "title": "Victoria Covid Hotspots",
                 "subtitle": f"""""",
-                "footnote": "",
-                "source": "Victorian government",
+                "footnote": """""",
+                "source": """Victorian government | Notes: Tier 1: Anyone who has visited this location during these times must get tested immediately and quarantine for 14 days from the exposure. 
+                Tier 2: Anyone who has visited this location during these times should urgently get tested, then isolate until confirmation of a negative result. Continue to monitor for symptoms, get tested again if symptoms appear.
+                Tier 3: Anyone who has visited this location during these times should monitor for symptoms - If symptoms develop, immediately get tested and isolate until you receive a negative result.""",
                 "yScaleType":"",
                 "minY": "0",
                 "maxY": "",
