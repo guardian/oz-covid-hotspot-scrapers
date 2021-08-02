@@ -48,10 +48,13 @@ df['Place'] = df['Place'].apply(lambda x: re.sub(r'([a-zA-Z])([1-9])', r'\1 \2',
 
 # Sort descending
 
+
 try:
-    df['Sort'] = pd.to_datetime(df['Date'], format="%A %d %B") + pd.offsets.DateOffset(years=121)
+    # df['Sort'] = pd.to_datetime(df['Date'], format="%A %d %B") + pd.offsets.DateOffset(years=121)
+    df['Sort'] = pd.to_datetime(df['Date'], format="%A %d %B %Y")
     df = df.sort_values(by=["Sort", "Type"], ascending=False)
-except:
+except Exception as e:
+    print(e)
     pass
 
 df = df[['Date', 'Place', 'Suburb', 'Arrival time', 'Departure time', 'Type']]
