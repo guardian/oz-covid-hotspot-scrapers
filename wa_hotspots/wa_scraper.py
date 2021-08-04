@@ -57,10 +57,15 @@ for i in range(0,len(callums)):
 
 final = pd.concat(listo)
 
-final['Date'] = pd.to_datetime(final['Date'])
+# 'Exposure date', 'Exposure time', 'Suburb', 'Location', 'Date updated',
+#        'Health advice'
 
-final = final.sort_values(by="Date", ascending=False)
-final['Date'] = final['Date'].dt.strftime('%d/%m/%Y')
+# print(final.columns)
+
+final['Exposure date'] = pd.to_datetime(final['Exposure date'], format="%d/%m/%Y")
+
+final = final.sort_values(by='Exposure date', ascending=False)
+final['Exposure date'] = final['Exposure date'].dt.strftime('%d/%m/%Y')
 
 
 print("Making WA hotspot chart")
