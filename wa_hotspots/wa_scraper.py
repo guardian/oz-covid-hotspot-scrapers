@@ -40,12 +40,16 @@ callums = [x.strip() for x in callums]
 
 callums = [x for x in callums if x.lower() != "flights"]
 
+# print(callums)
+
 tables = pd.read_html(html)
 
 listo = []
 
 for i in range(0,len(callums)):
     table = tables[i].copy()
+
+    print(table)
 
     if table.columns[0] == 0:
         table.columns = table.iloc[0]
@@ -68,7 +72,7 @@ final = final.sort_values(by='Exposure date', ascending=False)
 final['Exposure date'] = final['Exposure date'].dt.strftime('%d/%m/%Y')
 
 
-print("Making WA hotspot chart")
+# print("Making WA hotspot chart")
 
 def makeTable(df):
 

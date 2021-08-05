@@ -1,75 +1,106 @@
-Date,Place,Suburb,Arrival time,Departure time,Type
+Date,Place,Suburb,Start of exposure,End of exposure,Type
+Wednesday 4 August 2021,Hancock Street Car Park P 1Hancock Street,South Brisbane,7.30am,8.30am,Low risk contacts
 Tuesday 3 August 2021,Bluewater Village Early Learning 1 Maritime Way,Trinity Beach,12am,11.59pm,Close contacts
 Monday 2 August 2021,Bluewater Village Early Learning 1 Maritime Way,Trinity Beach,12am,11.59pm,Close contacts
 Monday 2 August 2021,Hawken Drive Pharmacy 26 Hawken Dr,St Lucia,8.13am,8.20am,Close contacts
+Monday 2 August 2021,Chemist Warehouse 70 Bryants Rd,Shailer Park,2.30pm,3.05pm,Close contacts
 Sunday 1 August 2021,Hidden Café12-14 Deauville Close,Yorkeys Knob,10am,12.15pm,Close contacts
 Saturday 31 July 2021,Fitzroy IslandFitzroy Island,Fitzroy Island,12am,11.59pm,Low risk contacts
+Saturday 31 July 2021,"Churchie Sporting Fields – other than New FieldAnglican Church Grammar School, Oaklands Parade",East Brisbane,7am,10am,Low risk contacts
+Saturday 31 July 2021,The Gap Football Club Field 223A Glen Affric Street,The Gap,9.15am,11.15am,Low risk contacts
 Saturday 31 July 2021,"Courts 21, 23 & 24 - Western Districts Netball AssociationFaulkner Park, Waratah Ave",Graceville,9.45am,11.30am,Low risk contacts
 Saturday 31 July 2021,Indooroopilly Shopping Centre 322 Moggill Rd,Indooroopilly,10.01am,11.10am,Low risk contacts
-Saturday 31 July 2021,McDonalds Indooroopilly 78-80 Coonan St,Indooroopilly,10.40am,10.50am,Low risk contacts
 Saturday 31 July 2021,DJ SupercutsShop 1/77 Sir Fred Schonell Dr,St Lucia,10.40am,11.15am,Low risk contacts
+Saturday 31 July 2021,McDonalds Indooroopilly 78-80 Coonan St,Indooroopilly,10.40am,10.50am,Low risk contacts
+Saturday 31 July 2021,Stafford City Shopping Centre 400 Stafford Road.,Stafford,11am,11.20am,Low risk contacts
 Saturday 31 July 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,11.15am,12.50pm,Low risk contacts
+Saturday 31 July 2021,Hyperdome Shopping CentreCorner Pacific Highway and Bryants Rd,Loganholme,11.30am,1.20pm,Low risk contacts
 Saturday 31 July 2021,"West End MarketsMontague Rd &, Jane St",West End,11.34am,12.15pm,Low risk contacts
 Saturday 31 July 2021,Suite 10/621 Coronation Dr Toowong (except Hall Property Solution unit) 10/621 Coronation Dr,Toowong,12.15pm,12.50pm,Low risk contacts
+Saturday 31 July 2021,Keperra Retirement Village - First set of low set villas on the right entrance of the complex 998 Samford Road,Keperra,12.30pm,3.30pm,Low risk contacts
 Saturday 31 July 2021,St Aidan’s Anglican Girls’ School 11 Ruthven St,Corinda,1pm,4pm,Low risk contacts
+Saturday 31 July 2021,"New Field, Churchie Sporting FieldsAnglican Church Grammar School, Oaklands Parade",East Brisbane,7am,10am,Close contacts
 Saturday 31 July 2021,"Japanese Language Supplementary School, held at St Aidan’s Anglican Girls’ School 11 Ruthven St",Corinda,8.15am,1pm,Close contacts
 Saturday 31 July 2021,"Reef Magic II Ferry to Fitzroy IslandCairns Marlin Marina, 1 Spence St",Cairns City,9am,10am,Close contacts
+Saturday 31 July 2021,The Gap Football Club House - Inside 23A Glen Affric Street,The Gap,9.15am,9.45am,Close contacts
 Saturday 31 July 2021,"Court 22 - Western Districts Netball Association,Faulkner Park, Waratah Ave",Graceville,9.45am,11.30am,Close contacts
-Saturday 31 July 2021,TOMRA recycling centre west end 281 Montague Rd,West End,10am,11.05am,Close contacts
+Saturday 31 July 2021,Kenmore Holy Spirit Anglican Church – Memorial Service 1036 Moggill Road,Kenmore,10am,11.30am,Close contacts
 Saturday 31 July 2021,UQ Playground St LuciaSir William MacGregor Drive,St Lucia,10am,11am,Close contacts
+Saturday 31 July 2021,TOMRA recycling centre west end 281 Montague Rd,West End,10am,11.05am,Close contacts
+Saturday 31 July 2021,The Gap Football Club Field 2 Under 12's Norths vs Under 12's Grange 23A Glen Affric Street,The Gap,10.10am,11am,Close contacts
 Saturday 31 July 2021,Mr Toys ToyworldIndooroopilly Shopping Centre,Indooroopilly,10.16am,10.26am,Close contacts
 Saturday 31 July 2021,ColesIndooroopilly Shopping Centre,Indooroopilly,10.28am,11.10am,Close contacts
+Saturday 31 July 2021,Stafford City Shopping Centre - Food Court 400 Stafford Road.,Stafford,10.30am,11.20am,Close contacts
+Saturday 31 July 2021,ALDI - The Gap VillageShop 40/1000 Waterworks Rd,The Gap,11am,12pm,Close contacts
 Saturday 31 July 2021,Mick's Nuts 31 Hardgrave Rd,West End,11.19am,11.30am,Close contacts
 Saturday 31 July 2021,St Lucia Pharmacy 26 Hawken Dr,St Lucia,11.20am,11.30am,Close contacts
 Saturday 31 July 2021,"HanaromartLevel 1, Indooroopilly Shopping centre, 322 Moggill Road",Indooroopilly,11.25am,11.50am,Close contacts
+Saturday 31 July 2021,"Coffee mentalityWest End Markets, Davies Park",West End,11.30am,11.40am,Close contacts
 Saturday 31 July 2021,Coffee mentalityWest End Markets,West End,11.30am,11.40am,Close contacts
+Saturday 31 July 2021,"Fresh berries directWest End Markets, Davies Park",West End,11.40am,11.50am,Close contacts
 Saturday 31 July 2021,Fresh berries directWest End Markets,West End,11.40am,11.50am,Close contacts
 Saturday 31 July 2021,"Izakaya SushuLevel 1, Indooroopilly Shopping centre, 322 Moggill Road",Indooroopilly,11.40am,12.05pm,Close contacts
 Saturday 31 July 2021,M.Y. Roasting Café82 Hyde Rd,Yeronga,11.45am,1.15pm,Close contacts
-Saturday 31 July 2021,Charlie fruit and VegWest End Markets,West End,11.50am,11.55am,Close contacts
+Saturday 31 July 2021,Toowong Fish MarketShop 4/530 Milton Rd,Toowong,11.50am,12.20pm,Close contacts
 Saturday 31 July 2021,McDonalds Indooroopilly 78-80 Coonan Street,Indooroopilly,11.50am,12pm,Close contacts
-Saturday 31 July 2021,Seafood Direct Butcher Boy Meats (Trade Winds Seafood Runaway Bay) Westend markets,West End,11.55am,12.05pm,Close contacts
+Saturday 31 July 2021,"Charlie fruit and VegWest End Markets, Davies Park",West End,11.50am,11.55am,Close contacts
+Saturday 31 July 2021,Charlie fruit and VegWest End Markets,West End,11.50am,11.55am,Close contacts
+Saturday 31 July 2021,"Seafood Direct Butcher Boy Meats (Trade Winds Seafood Runaway Bay) West End Markets, Davies Park",West End,11.55am,12.05pm,Close contacts
 Saturday 31 July 2021,"KmartLevel 1, Indooroopilly Shopping centre, 322 Moggill Road",Indooroopilly,11.55am,12.15pm,Close contacts
 Saturday 31 July 2021,ALDIIndooroopilly Shopping Centre,Indooroopilly,11.57am,12.38pm,Close contacts
 Saturday 31 July 2021,"BCC LibraryLevel 4, Indooroopilly Shopping centre, 322 Moggill Road",Indooroopilly,12pm,12.50pm,Close contacts
-Saturday 31 July 2021,Juicy ChoiceWest End Markets,West End,12.05pm,12.15pm,Close contacts
 Saturday 31 July 2021,KmartIndooroopilly shopping centre,Indooroopilly,12.05pm,12.15pm,Close contacts
+Saturday 31 July 2021,"Juicy ChoiceWest End Markets, Davies Park",West End,12.05pm,12.15pm,Close contacts
+Saturday 31 July 2021,Juicy ChoiceWest End Markets,West End,12.05pm,12.15pm,Close contacts
 Saturday 31 July 2021,Reef Magic II Ferry to CairnsFitzroy Island Jetty,Fitzroy Island,3.45pm,4.30pm,Close contacts
 Saturday 31 July 2021,"Blu Marlin Bistro, Pier Cairns 1 Spence St",Cairns City,8am,9am,Casual contacts
 Saturday 31 July 2021,Reef Fleet Terminal Pier Cairns 1 Spence St,Cairns City,8am,9am,Casual contacts
+Saturday 31 July 2021,Taringa Rovers Soccer ClubJack Speare Park,Indooroopilly,8.20am,9.40am,Casual contacts
 Saturday 31 July 2021,"DNA Expresso Bar (Patrons) IGA Marketplace St Lucia, 240 Hawken Drive",St Lucia,9am,9.10am,Casual contacts
+Saturday 31 July 2021,The Gap Football Club House - Outside 23A Glen Affric Street,The Gap,9.15am,9.30am,Casual contacts
 Saturday 31 July 2021,Eleanor Schonell BridgeCable-stayed bridge in St Lucia,St Lucia,10am,11am,Casual contacts
 Saturday 31 July 2021,JB-HiFiIndooroopilly Shopping Centre,Indooroopilly,10.05am,10.15am,Casual contacts
 Saturday 31 July 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,11.27am,12.50pm,Casual contacts
+Saturday 31 July 2021,"ColesHyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",Loganholme,11.30am,1.15pm,Casual contacts
 Saturday 31 July 2021,Izakaya SushiIndooroopilly shopping centre,Indooroopilly,11.50am,12.05pm,Casual contacts
+Saturday 31 July 2021,Fitness FirstIndooroopilly Shopping Centre,Indooroopilly,12pm,3.30pm,Casual contacts
 Saturday 31 July 2021,Christie Spaces 320 Adelaide Street,Brisbane City,12.45pm,1pm,Casual contacts
+Saturday 31 July 2021,"Robins KitchenHyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",Loganholme,12.55pm,1.15pm,Casual contacts
+Saturday 31 July 2021,"Earth MarketsHyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",Loganholme,1pm,1.20pm,Casual contacts
 Saturday 31 July 2021,"Liqourland Ironside (Patrons) Shop 3, 28 Hawken Street",St Lucia,1.15pm,1.20pm,Casual contacts
+Saturday 31 July 2021,Ampol Foodary 78–80 Bryants Rd,Loganholme,1.15pm,1.35pm,Casual contacts
+Saturday 31 July 2021,Guzman y GomezShop 1 / 18 Stamford Road,Indooroopilly,3.20pm,3.40pm,Casual contacts
 Friday 30 July 2021,Holy Family School Hall 37 Ward Street,Indooroopilly,12am,11.59pm,Low risk contacts
 Friday 30 July 2021,Cairns Central Shopping Centre 1/21 Mcleod St,Cairns City,8am,10.30am,Low risk contacts
+Friday 30 July 2021,"Yamanto BakeryYamanto Shopping Village, 512 Warwick Rd,",Yamanto,8am,8.17am,Low risk contacts
 Friday 30 July 2021,John Oxley Centre 339 Coronation Dr,Milton,8.10am,9am,Low risk contacts
 Friday 30 July 2021,Blocksidge Building 144 Adelaide St,Brisbane City,8.20am,8.30am,Low risk contacts
-Friday 30 July 2021,Suite 10/621 Coronation Dr Toowong (except Hall Property Solution unit) 10/621 Coronation Dr,Toowong,8.30am,11.40am,Low risk contacts
 Friday 30 July 2021,179 Ann St Parking 179 Ann St,Brisbane City,8.30am,8.40am,Low risk contacts
+Friday 30 July 2021,Suite 10/621 Coronation Dr Toowong (except Hall Property Solution unit) 10/621 Coronation Dr,Toowong,8.30am,11.40am,Low risk contacts
+Friday 30 July 2021,"Officeworks/Coles entrance 44 Brisbane Street,",Ipswich,10.49am,11.15am,Low risk contacts
+Friday 30 July 2021,Toowong Village Shopping Centre (including car park) 9 Sherwood Road,Toowong,11.15am,12.30pm,Low risk contacts
 Friday 30 July 2021,Sunnybank Plaza 358 Mains Rd,Sunnybank,11.40am,1.15pm,Low risk contacts
 Friday 30 July 2021,"Oche Fortitude Valley, 2nd floor 111 Constance St",Fortitude Valley,12.12pm,3.30pm,Low risk contacts
 Friday 30 July 2021,Indooroopilly Shopping centre 322 Moggill Rd,Indooroopilly,3.25pm,4.55pm,Low risk contacts
 Friday 30 July 2021,Toowong Village Shopping Centre 9 Sherwood Road,Toowong,3.45pm,5.15pm,Low risk contacts
 Friday 30 July 2021,Rockhampton Airport 81 Canoona Rd,West Rockhampton,5.25pm,6.35pm,Low risk contacts
 Friday 30 July 2021,Qantas Domestic Airport BrisbaneAirport Drive,Brisbane Airport,7.50pm,8.30pm,Low risk contacts
-Friday 30 July 2021,Rookwood WeirWorksite & Workers Camp onsite at Rookwood Weir,Rookwood Weir,12am,4pm,Close contacts
 Friday 30 July 2021,Bluewater Village Early Learning 1 Maritime Way,Trinity Beach,12am,11.59pm,Close contacts
+Friday 30 July 2021,Rookwood WeirWorksite & Workers Camp onsite at Rookwood Weir,Rookwood Weir,12am,4pm,Close contacts
+Friday 30 July 2021,Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace,Spring Hill,12am,11.59pm,Close contacts
 Friday 30 July 2021,Ironside State School 2 Hawken Drive,St Lucia,12am,11.59pm,Close contacts
 Friday 30 July 2021,"Outside School Hours Care, Ironside State School 2 Hawken Drive",St Lucia,12am,11.59pm,Close contacts
-Friday 30 July 2021,Brisbane Grammar School (Boys) including extracurricular activities 24 Gregory Terrace,Spring Hill,6.30am,3pm,Close contacts
 Friday 30 July 2021,"Endoscopy Suite and Recovery area, Sunnybank Private Hospital 245 McCullough St",Sunnybank,7.55am,12.15pm,Close contacts
 Friday 30 July 2021,Brisbane Girls Grammar School – All of campus Including Open Day Event and Extracurricular activities 70 Gregory Terrace,Spring Hill,8am,8.30pm,Close contacts
-Friday 30 July 2021,Studio 99 Fitness Centre 339 Coronation Dr,Milton,8.10am,9am,Close contacts
 Friday 30 July 2021,John Oxley Centre – Male toilets ground level -North tower 339 Coronation Dr,Milton,8.10am,9am,Close contacts
+Friday 30 July 2021,Studio 99 Fitness Centre 339 Coronation Dr,Milton,8.10am,9am,Close contacts
 Friday 30 July 2021,"Hall Property Solution Unit 2nd Floor, 10/621 Coronation Dr",Toowong,8.30am,11.40am,Close contacts
 Friday 30 July 2021,"1300SMILES Dental Practice, Cairns Central Shopping Centre: Waiting room and reception areaGround level, 1/21 Mcleod St",Cairns City,8.40am,10.30am,Close contacts
 Friday 30 July 2021,"Ampol Foodary (previously Caltex Starmart), Hyperdome 6 Leda Dr",Shailer Park,8.45am,9.15am,Close contacts
 Friday 30 July 2021,"Bus Route 412, departed at 0945Sir Fred Schonell Dve, St Lucia to UQ Chancellor’s Place, University of Queensland",Bus Route 412,9.45am,10.05am,Close contacts
+Friday 30 July 2021,Bundamba Family Store – The Salvation Army 12 Coal Street,Bundamba,11.18am,12pm,Close contacts
 Friday 30 July 2021,"Udonya Tokoton RestaurantShop 86 Sunnybank Plaza, 358 Mains Rd",Sunnybank,11.40am,12.20pm,Close contacts
+Friday 30 July 2021,"ColesShop G 56, Toowong Village Shopping Centre",Toowong,12pm,12.20pm,Close contacts
 Friday 30 July 2021,"Formosa Asian MarketShop 88 Sunnybank Plaza, 358 Mains Rd",Sunnybank,12pm,12.40pm,Close contacts
 Friday 30 July 2021,"1st floor & 1st floor toilet, Oche Fortitude Valley - Dine-in 111 Constance St",Fortitude Valley,12.12pm,3.30pm,Close contacts
 Friday 30 July 2021,"Female toilet near Coles, Sunnybank PlazaSunnybank Plaza, 358 Mains Rd",Sunnybank,12.15pm,12.30pm,Close contacts
@@ -79,14 +110,20 @@ Friday 30 July 2021,"Kua Thai Isan Traditional Thai RestaurantSungold Arcade, 15
 Friday 30 July 2021,Pacific Petroleum 138 McCullough St,Sunnybank,12.40pm,1.05pm,Close contacts
 Friday 30 July 2021,Saigon Yummy 8/225 Hawken Drive,St Lucia,1.15pm,1.55pm,Close contacts
 Friday 30 July 2021,Bupa Dental Toowong 36 Jephson St,Toowong,2.55pm,3.25pm,Close contacts
-Friday 30 July 2021,"Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring HillGregory Tce at Torrington street, stop 5",Spring Hill,3pm,3.26pm,Close contacts
 Friday 30 July 2021,Georgie Parkes Swim School 2 Hawken Drive,St Lucia,3pm,3.45pm,Close contacts
+Friday 30 July 2021,"Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring HillGregory Tce at Torrington street, stop 5",Spring Hill,3pm,3.26pm,Close contacts
+Friday 30 July 2021,"Bus route 381From Petrie Tce At Normanby Fiveways, stop 4 to Musgrave Rd at Red Hill Shops, stop 8",Bus route 381,3.15pm,3.19pm,Close contacts
 Friday 30 July 2021,"Bus route 411Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",Bus route 411,3.26pm,3.57pm,Close contacts
 Friday 30 July 2021,Jacqui ELevel 2 - Indooroopilly Shopping centre. 322 Moggill Rd,Indooroopilly,3.30pm,3.50pm,Close contacts
 Friday 30 July 2021,Sharee Skye Dance Centre 9/39 Campbell St,Toowong,3.30pm,5.20pm,Close contacts
+Friday 30 July 2021,Ashgrove Fresh Fruit Market 1/15 Steward Road,Ashgrove,3.36pm,4pm,Close contacts
+Friday 30 July 2021,Pet Cafe 254 Waterworks Road,Ashgrove,3.40pm,3.55pm,Close contacts
+Friday 30 July 2021,Woolworths Ashgrove 16 Ashgrove Avenue,Ashgrove,3.40pm,4.40pm,Close contacts
+Friday 30 July 2021,7-Eleven Ashgrove 268 Waterworks Road,Ashgrove,3.50pm,4.05pm,Close contacts
 Friday 30 July 2021,Refreshed MassageLevel 1 - Indooroopilly Shopping centre. 322 Moggill Rd,Indooroopilly,3.50pm,4.45pm,Close contacts
 Friday 30 July 2021,"KmartToowong Village Shopping Centre, Shop L 28, 9 Sherwood Road",Toowong,4.05pm,5.05pm,Close contacts
 Friday 30 July 2021,Georgie Parkes Swim School 2 Hawken Drive,St Lucia,4.15pm,4.45pm,Close contacts
+Friday 30 July 2021,"Barracuda group training - UQ Sport Aquatic CentreCnr Blair Dr and Union Rd, The University of Queensland",St Lucia,4.45pm,6.05pm,Close contacts
 Friday 30 July 2021,"Mirchh Masala Impex, Grocery Store and Restaurant 3/110 Logan Rd",Woolloongabba,5pm,5.45pm,Close contacts
 Friday 30 July 2021,"Cielo Rooftop BarRooftop, 209 Brunswick St",Fortitude Valley,6pm,10pm,Close contacts
 Friday 30 July 2021,Southern departure female toilet (located in security check in area) - Rockhampton Airport 81 Canoona Rd,West Rockhampton,6.24pm,8.23pm,Close contacts
@@ -96,15 +133,21 @@ Friday 30 July 2021,IGA Pullenvale 8 McCaskill Road,Pullenvale,8.15pm,8.35pm,Clo
 Friday 30 July 2021,"School of Biomedical Sciences (Building 64 and 65) The University of Queensland, 280-284 Sir Fred Schonell Road",St Lucia,9am,4pm,Casual contacts
 Friday 30 July 2021,"Chancellor’s Place Bus stopThe University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,9.45am,9.54am,Casual contacts
 Friday 30 July 2021,"Michie Building Level 2 (Building 9) The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,9.54am,12.20pm,Casual contacts
+Friday 30 July 2021,Officeworks 44 Brisbane Street,Ipswich,10.49am,11.15am,Casual contacts
+Friday 30 July 2021,Transport and Main Roads Toowong 15 Lissner Street,Toowong,11.20am,11.25am,Casual contacts
+Friday 30 July 2021,"Boost JuiceShop G 57, Toowong Village Shopping Centre",Toowong,11.35am,11.45am,Casual contacts
 Friday 30 July 2021,"Pizza CaffeUQ Union Complex, The University of Queensland, Campbell Place, off Union Road.",St Lucia,12pm,1.15pm,Casual contacts
 Friday 30 July 2021,"1st floor & 1st floor toilet, Oche Fortitude Valley - Take-away 111 Constance St",Fortitude Valley,12.12pm,3.30pm,Casual contacts
 Friday 30 July 2021,Market Organics Chapel Hill 10/620 Moggill Rd,Chapel Hill,12.20pm,12.40pm,Casual contacts
 Friday 30 July 2021,"Chancellor’s Place Bus stopThe University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,12.20pm,12.30pm,Casual contacts
 Friday 30 July 2021,IGA Marketplace 240 Hawken Drive,St Lucia,1.20pm,1.22pm,Casual contacts
 Friday 30 July 2021,IGA Marketplace – Men’s bathroom 240 Hawken Drive,St Lucia,1.22pm,1.30pm,Casual contacts
+Friday 30 July 2021,"Petrie Tce At Normanby Fiveways, stop 4 waiting areaPetrie Tce At Normanby Fiveways, stop 4",Petrie Terrace,3pm,3.15pm,Casual contacts
 Friday 30 July 2021,Newsagent Metro News on FirstLevel 1 - Indooroopilly Shopping centre. 322 Moggill Rd,Indooroopilly,3.30pm,3.35pm,Casual contacts
 Friday 30 July 2021,"Merlo CoffeeToowong Village Shopping Centre, Shop K 4, 9 Sherwood Road",Toowong,3.50pm,4.12pm,Casual contacts
+Friday 30 July 2021,UQ Sport Aquatic CentreCr Blair Dr and Union Road,St Lucia,4.15pm,6pm,Casual contacts
 Friday 30 July 2021,"Pullenvale Jabiru After School Care, Pullenvale State School 120 Grandview Road",Pullenvale,4.30pm,4.45pm,Casual contacts
+Friday 30 July 2021,UQ Sport Aquatic Centre (except Barracuda group training) Cnr Blair Dr and Union Rd The University of Queensland,St Lucia,4.45pm,6.05pm,Casual contacts
 Friday 30 July 2021,"Pizza Capers KenmoreShop 53A, Kenmore Village Shopping Centre, Cnr Moggill and Brookfield Rd",Kenmore,7.15pm,7.25pm,Casual contacts
 Friday 30 July 2021,"Female Toilet, 2nd Floor, 10/621 Coronation Dr Toowong 10/621 Coronation Dr",Toowong,8.30am,11.30am,Casual contacts
 Friday 30 July 2021,"Ampol Foodary Southport 152 Smith St Cnr, Kumbari Ave",Southport,9.40am,10am,Casual contacts
@@ -116,16 +159,18 @@ Thursday 29 July 2021,Cairns Central Shopping Centre 1/21 Mcleod St & Spence St,
 Thursday 29 July 2021,Mater Private Hospital 30 Health Care Drive,Springfield Central,1pm,4.30pm,Low risk contacts
 Thursday 29 July 2021,"0-2 years classrooms and play area (Honey ants and Tree Frogs) Playhouse Parent and Childcare Centre, UQ St Lucia Campus",St Lucia,3.08pm,5.21pm,Low risk contacts
 Thursday 29 July 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,3.10pm,3.30pm,Low risk contacts
+Thursday 29 July 2021,David JonesIndooroopilly Shopping Centre,Indooroopilly,3.30pm,3.31pm,Low risk contacts
 Thursday 29 July 2021,Indooroopilly Shopping Centre 322 Moggill Road,Indooroopilly,4.15pm,5.15pm,Low risk contacts
 Thursday 29 July 2021,"Western Districts Netball Association - Entire venue except Court 1Faulkner Park, Waratah Ave",Graceville,4.30pm,5.40pm,Low risk contacts
 Thursday 29 July 2021,Bunnings Indooroopilly 94-108 Coonan St,Indooroopilly,6pm,6.12pm,Low risk contacts
 Thursday 29 July 2021,Rookwood WeirWorksite & Workers Camp onsite at Rookwood Weir,Rookwood Weir,12am,11.59pm,Close contacts
+Thursday 29 July 2021,Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace,Spring Hill,12am,11.59pm,Close contacts
 Thursday 29 July 2021,Ironside State School 2 Hawken Drive,St Lucia,12am,11.59pm,Close contacts
 Thursday 29 July 2021,"Outside School Hours Care, Ironside State School 2 Hawken Drive",St Lucia,12am,11.59pm,Close contacts
 Thursday 29 July 2021,AcuHealth acupuncture clinic 45 Kedron Brook Road,Wilston,6.45am,8.10am,Close contacts
+Thursday 29 July 2021,Bus 432Moggill Rd stop 27 (Indooroopilly State Primary School) to Lambert Rd Stop 25 (Indooroopilly State High School),Bus route 432,7.41am,8.01am,Close contacts
 Thursday 29 July 2021,Indooroopilly State High School 111 Ward St,Indooroopilly,8am,3.30pm,Close contacts
 Thursday 29 July 2021,"Ipswich CBD Community Vaccination ClinicNicholas Street Mall, (Ipswich Mall)",Ipswich,8am,10.20am,Close contacts
-Thursday 29 July 2021,Brisbane Grammar School (Boys) including extracurricular activities 24 Gregory Terrace,Spring Hill,8am,3pm,Close contacts
 Thursday 29 July 2021,Family Dental Clinic – West End 3/12 Browning St,South Brisbane,8.10am,9am,Close contacts
 Thursday 29 July 2021,MyerIndooroopilly shopping centre,Indooroopilly,8.50am,9.30am,Close contacts
 Thursday 29 July 2021,"K & L EndoLevel 1, Sunnybank Specialist Centre, 243 McCullough St",Sunnybank,9am,12pm,Close contacts
@@ -146,18 +191,21 @@ Thursday 29 July 2021,Southside Bistro 49/342 McCullough St,Sunnybank,12.25pm,12
 Thursday 29 July 2021,"Bayleaf Balinese RestaurantCnr Gatton St &, Lake St",Cairns City,12.45pm,2.15pm,Close contacts
 Thursday 29 July 2021,"Darwin’s CaféBuilding 94, The University of Queensland, Slip Road",St Lucia,2pm,3.15pm,Close contacts
 Thursday 29 July 2021,Coles JindaleeCorner Goggs and Sinnamon Rds,Jindalee,2.55pm,3.15pm,Close contacts
-Thursday 29 July 2021,Terry White Chemmart Jindalee 4/168 Sinnamon Rd,Jindalee,3pm,3.20pm,Close contacts
+Thursday 29 July 2021,ALDIIndooroopilly Shopping Centre,Indooroopilly,3pm,4pm,Close contacts
 Thursday 29 July 2021,"Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring HillGregory Tce at Torrington street, stop 5",Spring Hill,3pm,3.15pm,Close contacts
+Thursday 29 July 2021,Terry White Chemmart Jindalee 4/168 Sinnamon Rd,Jindalee,3pm,3.20pm,Close contacts
 Thursday 29 July 2021,"OHSC classrooms and play areaPlayhouse Parent and Childcare Centre, UQ St Lucia Campus",St Lucia,3.08pm,5.21pm,Close contacts
 Thursday 29 July 2021,"Bus route 411Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",Bus route 411,3.15pm,3.51pm,Close contacts
+Thursday 29 July 2021,Bus 718Lambert Rd Stop 26 (St Peters Lutheran College) to Station Rd Stop E (Indooroopilly Shopping Centre),Bus route 718,3.16pm,3.28pm,Close contacts
 Thursday 29 July 2021,"Senior Subject Selection EXPOIndooroopilly State High School, 111 Ward Street",Indooroopilly,3.30pm,8pm,Close contacts
 Thursday 29 July 2021,Ethos Orthodontics Toowong 8/48-52 Sherwood Rd,Toowong,3.55pm,4.30pm,Close contacts
 Thursday 29 July 2021,Bluewater Village Early Learning 1 Maritime Way,Trinity Beach,4pm,6.30pm,Close contacts
 Thursday 29 July 2021,Sono School of Music – Station Rd Studio 1/30 Station Road,Indooroopilly,4.20pm,5pm,Close contacts
 Thursday 29 July 2021,"Court 1 - Western Districts Netball AssociationFaulkner Park, Waratah Ave",Graceville,4.30pm,5.40pm,Close contacts
+Thursday 29 July 2021,"Crocodiles group training - UQ Sport Aquatic CentreCnr Blair Dr and Union Rd, The University of Queensland",St Lucia,4.45pm,6.05pm,Close contacts
 Thursday 29 July 2021,"JKA KarateHoly Family School Hall, 37 Ward Street",Indooroopilly,6pm,7.40pm,Close contacts
 Thursday 29 July 2021,"Sushi Train IndooroopillyShop 2, Indooroopilly Junction, 100 Coonan St",Indooroopilly,6.12pm,7.15pm,Close contacts
-Thursday 29 July 2021,St Peters Lutheran College – Debating event Room MSN 366 Harts Rd,Indooroopilly,7.20pm,8.30pm,Close contacts
+Thursday 29 July 2021,St Peters Lutheran College – Room MSN 366 Harts Rd,Indooroopilly,6.45pm,8.30pm,Close contacts
 Thursday 29 July 2021,"Nicholas Street MallNicholas street, (Ipswich Mall) Including d’Arcy Doyle Place",Ipswich,8am,10.30am,Casual contacts
 Thursday 29 July 2021,Night Owl TaringaShop 2/144 Indooroopilly Road,Taringa,8.15am,8.30am,Casual contacts
 Thursday 29 July 2021,Female Toilets Level 2 near Forever New and MyerIndooroopilly shopping centre,Indooroopilly,8.45am,8.50am,Casual contacts
@@ -174,16 +222,19 @@ Thursday 29 July 2021,"2-3/3-5 years classrooms and play area (Wallabies, Quokka
 Thursday 29 July 2021,"Pullenvale Jabiru After School Care, Pullenvale State School 120 Grandview Road",Pullenvale,4pm,4.10pm,Casual contacts
 Thursday 29 July 2021,Northern Beaches Swim SchoolPoolwood Rd,Kewarra Beach,4.15pm,5.15pm,Casual contacts
 Thursday 29 July 2021,Caltex 3198 Moggill Road,Bellbowrie,4.20pm,4.25pm,Casual contacts
-Thursday 29 July 2021,St Peters Lutheran College – Debating event Room (other than those in room MSN 3) 66 Harts Rd,Indooroopilly,7.30pm,8.30pm,Casual contacts
+Thursday 29 July 2021,"UQ Sport Aquatic Centre (except Crocodiles group training) Cnr Blair Dr and Union Rd, The University of Queensland",St Lucia,4.45pm,6.05pm,Casual contacts
+Thursday 29 July 2021,"St Peters Lutheran College – all debating rooms other than MSN 3 or open-air corridors outside MSN 3, MSN 4, MSO 4, MSO 566 Harts Rd",Indooroopilly,6.30pm,8.30pm,Casual contacts
 Wednesday 28 July 2021,Holy Family School Hall 37 Ward Street,Indooroopilly,12am,11.59pm,Low risk contacts
 Wednesday 28 July 2021,Qantas Domestic Airport BrisbaneAirport Drive,Brisbane Airport,7.20am,8.30am,Low risk contacts
 Wednesday 28 July 2021,Rockhampton Airport 81 Canoona Rd,West Rockhampton,9.38am,9.55am,Low risk contacts
 Wednesday 28 July 2021,"UQ Lakes Bus Station, North Platform D & EUniversity of Queensland",St Lucia,12.15pm,12.20pm,Low risk contacts
+Wednesday 28 July 2021,Jack Cook Memorial Park –Taringa Rovers Soccer Club training (except U 8 Eagle Group) 40/45 Indooroopilly Rd,Toowong,5.30pm,6.30pm,Low risk contacts
 Wednesday 28 July 2021,Southbank TAFE Campus 66 Ernest St,South Brisbane,6pm,9pm,Low risk contacts
-Wednesday 28 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,1am,Close contacts
-Wednesday 28 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,1am,Close contacts
+Wednesday 28 July 2021,Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace,Spring Hill,12am,11.59pm,Close contacts
 Wednesday 28 July 2021,Ironside State School 2 Hawken Drive,St Lucia,12am,11.59pm,Close contacts
 Wednesday 28 July 2021,"Outside School Hours Care, Ironside State School 2 Hawken Drive",St Lucia,12am,11.59pm,Close contacts
+Wednesday 28 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,1am,Close contacts
+Wednesday 28 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,1am,Close contacts
 Wednesday 28 July 2021,"Modwest BuildingThe University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,7.30am,10am,Close contacts
 Wednesday 28 July 2021,Indooroopilly State High School – including after school activities 111 Ward St,Indooroopilly,8am,4.30pm,Close contacts
 Wednesday 28 July 2021,Qantas Flight QF 2362Brisbane to Rockhampton,Brisbane to Rockhampton,8.30am,9.50am,Close contacts
@@ -198,6 +249,7 @@ Wednesday 28 July 2021,"Bus stop waiting area Gregory Tce at Torrington street, 
 Wednesday 28 July 2021,"Bus route 411Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",Bus route 411,3.18pm,4pm,Close contacts
 Wednesday 28 July 2021,Australian Girls’ Choir practise - Brigidine College 53 Ward St,Indooroopilly,5pm,6pm,Close contacts
 Wednesday 28 July 2021,Grill'd ToowoongShop G 44/9 Sherwood Rd,Toowong,5.15pm,6pm,Close contacts
+Wednesday 28 July 2021,"Jack Cook Memorial Park - U 8 Eagle Group, Taringa Rovers Soccer Club 40/45 Indooroopilly Rd",Toowong,5.30pm,6.30pm,Close contacts
 Wednesday 28 July 2021,Southbank TAFE F Block Level 5 Rm 501566 Ernest St,South Brisbane,7pm,9pm,Close contacts
 Wednesday 28 July 2021,"Bunnings, Mount GravattWecker Rd",Mount Gravatt,7am,7.35am,Casual contacts
 Wednesday 28 July 2021,Pullenvale State School – prep rooms area 120 Grandview Road,Pullenvale,8.45am,9am,Casual contacts
@@ -207,13 +259,16 @@ Wednesday 28 July 2021,"Translational Research Institute, Ground FloorPrincess A
 Wednesday 28 July 2021,"Otto Hirschfeld Building Level 2 and 3 (Building 81) The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,2.51pm,5pm,Casual contacts
 Wednesday 28 July 2021,Australia Girls’ Choir Practise – Brigidine College 53 Ward St,Indooroopilly,6pm,6.35pm,Casual contacts
 Tuesday 27 July 2021,Holy Family School Hall 37 Ward Street,Indooroopilly,12am,11.59pm,Low risk contacts
-Tuesday 27 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
-Tuesday 27 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
+Tuesday 27 July 2021,South Bank - walkway from the Cultural Centre to the Wheel of BrisbaneSouth Bank Promenade,South Brisbane,10.45am,11.20am,Low risk contacts
+Tuesday 27 July 2021,Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace,Spring Hill,12am,11.59pm,Close contacts
 Tuesday 27 July 2021,Ironside State School 2 Hawken Drive,St Lucia,12am,11.59pm,Close contacts
 Tuesday 27 July 2021,"Outside School Hours Care, Ironside State School 2 Hawken Drive",St Lucia,12am,11.59pm,Close contacts
+Tuesday 27 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
+Tuesday 27 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
 Tuesday 27 July 2021,"Modwest BuildingThe University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,7.28am,11.40am,Close contacts
 Tuesday 27 July 2021,Indooroopilly State High School 111 Ward St,Indooroopilly,8am,10am,Close contacts
-Tuesday 27 July 2021,"Duhig North Building (Library) The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,11.44am,2.45am,Close contacts
+Tuesday 27 July 2021,"Queensland Gallery of Modern Art (GOMA) Queensland Cultural Centre, Stanley Place.",South Brisbane,9.45am,11am,Close contacts
+Tuesday 27 July 2021,"Duhig North Building (Library) The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,11.44am,2.45pm,Close contacts
 Tuesday 27 July 2021,"Building 69, rooms 511, 512, 513The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,2.54pm,6pm,Close contacts
 Tuesday 27 July 2021,Briki Espresso & Gelati Bar St Lucia 2/28 Hawken Dr,St Lucia,3.40pm,4pm,Close contacts
 Tuesday 27 July 2021,"Abel Smith Lecture Theatre Building 23The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,6pm,7pm,Close contacts
@@ -224,10 +279,11 @@ Tuesday 27 July 2021,"Building 69, level 5The University of Queensland, 280-284 
 Monday 26 July 2021,McDonalds Kenmore Drive Through 841 Moggill Road,Kenmore,3.40pm,3.45pm,Low risk contacts
 Monday 26 July 2021,Emergency Department waiting area - Royal Brisbane and Women’s HospitalButterfield Street,Herston,9.45pm,10.03pm,Low risk contacts
 Monday 26 July 2021,Northern Ring Road Taxi rank (outside emergency department) - Royal Brisbane and Women’s HospitalButterfield Street,Herston,10.23pm,10.58pm,Low risk contacts
-Monday 26 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
-Monday 26 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
+Monday 26 July 2021,Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace,Spring Hill,12am,11.59pm,Close contacts
 Monday 26 July 2021,Ironside State School 2 Hawken Drive,St Lucia,12am,11.59pm,Close contacts
 Monday 26 July 2021,"Outside School Hours Care, Ironside State School 2 Hawken Drive",St Lucia,12am,11.59pm,Close contacts
+Monday 26 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
+Monday 26 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
 Monday 26 July 2021,"Otto Hirschfeld Building. Level 2, Lab room 210The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,9.57am,10.30am,Close contacts
 Monday 26 July 2021,Lees & Henschell Optometry Kenmore 12 Wongabel St,Kenmore,3pm,3.30pm,Close contacts
 Monday 26 July 2021,"Otto Hirschfeld Building (Building 81) The University of Queensland, 280-284 Sir Fred Schonell Dr",St Lucia,9.57am,10.30am,Casual contacts
@@ -275,8 +331,3 @@ Thursday 22 July 2021,Goodstart Early Learning Parkwood 4 Woodlands Way,Parkwood
 Thursday 22 July 2021,Goodstart Early Learning Parkwood 4 Woodlands Way,Parkwood,5pm,6pm,Close contacts
 Thursday 22 July 2021,Prince of Wales Hotel 100 Buckland Rd,Nundah,8pm,9pm,Close contacts
 Thursday 22 July 2021,Sandgate Bakehouse 1 Bowser Parade,Sandgate,10am,11am,Casual contacts
-Wednesday 21 July 2021,Brisbane City Backpackers HQ 380 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
-Wednesday 21 July 2021,Joe’s Place Backpackers 390 Upper Roma St,Brisbane City,12am,11.59pm,Close contacts
-Wednesday 21 July 2021,Goodstart Early Learning Parkwood 4 Woodlands Way,Parkwood,9am,10am,Close contacts
-Wednesday 21 July 2021,Niku Ramen 1015 Sandgate Road,Nundah,4pm,5pm,Close contacts
-Wednesday 21 July 2021,Goodstart Early Learning Parkwood 4 Woodlands Way,Parkwood,5pm,6pm,Close contacts

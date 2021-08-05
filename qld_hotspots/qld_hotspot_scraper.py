@@ -57,7 +57,11 @@ except Exception as e:
     print(e)
     pass
 
-df = df[['Date', 'Place', 'Suburb', 'Arrival time', 'Departure time', 'Type']]
+
+# print(df.columns)
+
+
+df = df[['Date', 'Place', 'Suburb', 'Start of exposure', 'End of exposure','Type']]
 
 # Drop blank row in casual contacts table
 df.dropna(inplace=True)
