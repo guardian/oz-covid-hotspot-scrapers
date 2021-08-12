@@ -21,20 +21,25 @@ headers = {'user-agent': 'The Guardian'}
 html = requests.get('https://www.covid19.act.gov.au/act-status-and-response/act-covid-19-exposure-locations', headers=headers).text
 tables = pd.read_html(html)
 
-table_labels = ['Close contact', 'Monitor for symptoms']
+table_labels = ['Close contact', 'Casual contact exposure', 'Monitor for symptoms']
 
-cols = ["Suburb","Place","Date","Arrival time","Departure time"]
+cols = ["Suburb","Place","Date","Arrival Time","Departure Time"]
 
 listo = []
 
 for i in range(0, len(table_labels)):
     inter = tables[i]
+    inter.columns = [x.title() for x in inter.columns]
+    # print(inter)
+    # print(inter.columns)
     inter = inter[cols]
     inter['Type'] = table_labels[i]
     listo.append(inter)
 
 
 df = pd.concat(listo)
+
+print(df)
 
 
 #%%
