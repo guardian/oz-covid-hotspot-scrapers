@@ -36,7 +36,6 @@ for i in range(0, len(table_labels)):
 
 df = pd.concat(listo)
 
-print(df)
 
 #%%
 
