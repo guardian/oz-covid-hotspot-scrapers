@@ -1,4 +1,5 @@
 #%%
+from numpy import column_stack
 import pandas as pd
 import requests
 from modules.yachtCharter import yachtCharter
@@ -39,9 +40,17 @@ for i in range(0, len(table_labels)):
 
 df = pd.concat(listo)
 
-print(df)
+## ATTEMPT TO SORT BY LATEST:
+try:
+    df['Date_2'] = df['Date'].apply(lambda x: x.strip() + " 2021" if "2021" not in x else x.strip())
+    df['Sort'] = pd.to_datetime(df['Date_2'])
+    df = df.sort_values(by=['Sort'], ascending=False)
+    df.drop(columns=['Sort', 'Date_2'], inplace=True)
+except Exception as e:
+    print(e)
+    pass
 
-
+# print(df.columns)
 #%%
 
 def makeTable(df):
