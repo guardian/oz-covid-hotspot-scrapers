@@ -29,7 +29,7 @@ cols = ["Suburb","Place","Date","Arrival Time","Departure Time"]
 listo = []
 
 for i in range(0, len(table_labels)):
-    inter = tables[i]
+    inter = tables[i].copy()
     inter.columns = [x.title() for x in inter.columns]
     # print(inter)
     # print(inter.columns)
