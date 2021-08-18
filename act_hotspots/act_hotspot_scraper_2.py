@@ -45,6 +45,7 @@ except Exception as e:
 
 # print(df.columns)
 #%%
+# print(df)
 
 def makeTable(df):
 
