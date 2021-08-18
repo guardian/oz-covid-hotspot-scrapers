@@ -1,9 +1,7 @@
-#%%
-from numpy import column_stack
-import pandas as pd
 import requests
-# from modules.yachtCharter import yachtCharter
-import os
+import pandas as pd 
+from bs4 import BeautifulSoup as bs 
+from modules.yachtCharter import yachtCharter
 import re
 
 print("Grabbing ACT hotspot data")
@@ -13,48 +11,33 @@ testo = ''
 
 chart_key = "act_covid_hotspots"
 
-#%%
-
-data_path = os.path.dirname(__file__)
-pd.set_option("display.max_rows", None, "display.max_columns", None)
 
 headers = {'user-agent': 'The Guardian'}
 html = requests.get('https://www.covid19.act.gov.au/act-status-and-response/act-covid-19-exposure-locations', headers=headers).text
-tables = pd.read_html(html)
+# tables = pd.read_html(html)
 
-print(tables)
-table_labels = ['Close contact', 'Casual contact exposure', 'Monitor for symptoms']
+soup = bs(html, 'html.parser')
+finder = soup.find_all('script', type='text/javascript')
 
-# cols = ["Suburb","Place","Date","Arrival Time","Departure Time"]
-
-# listo = []
-
-# for i in range(0, len(table_labels)):
-#     inter = tables[i].copy()
-#     inter.columns = [x.title() for x in inter.columns]
-#     print(inter)
-#     print(inter.columns)
-#     # inter = inter[cols]
-#     # inter['Type'] = table_labels[i]
-#     # listo.append(inter)
+ceevee = re.search("(?P<url>https?://[^\s]+)", finder[0].string).group("url")
+ceevee = ceevee.replace('",', "").strip()
 
 
-# df = pd.concat(listo)
 
-# print(df.columns)
+df = pd.read_csv(ceevee)
+df = df[['Suburb', 'Exposure Site', 'Street', 'Date', 'Arrival Time', 'Departure Time', 'Contact']]
+df.columns = ['Suburb', 'Location', 'Street', 'Date', 'Arrival Time', 'Departure Time', 'Contact']
 
-# ## ATTEMPT TO SORT BY LATEST:
-# try:
-#     df['Date_2'] = df['Date'].apply(lambda x: x.strip() + " 2021" if "2021" not in x else x.strip())
-#     df['Sort'] = pd.to_datetime(df['Date_2'])
-#     df = df.sort_values(by=['Sort'], ascending=False)
-#     df.drop(columns=['Sort', 'Date_2'], inplace=True)
-# except Exception as e:
-#     print(e)
-#     pass
-
-# print(df.columns)
-#%%
+## ATTEMPT TO SORT BY LATEST:
+try:
+    # df['Date_2'] = df['Date'].apply(lambda x: x.strip() + " 2021" if "2021" not in x else x.strip())
+    df['Sort'] = pd.to_datetime(df['Date'], format="%d/%m/%Y - %A")
+    df = df.sort_values(by=['Sort'], ascending=False)
+    # print(df['Sort'])
+    df.drop(columns=['Sort'], inplace=True)
+except Exception as e:
+    print(e)
+    pass
 
 def makeTable(df):
 
@@ -85,4 +68,4 @@ def makeTable(df):
     yachtCharter(template=template, labels=labels, data=chartData, chartId=[{"type":"table"}],
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName=f"{chart_key}{testo}")
 
-# makeTable(df)
+makeTable(df)
