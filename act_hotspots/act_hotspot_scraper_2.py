@@ -24,15 +24,20 @@ options.add_argument("--headless")
 
 browser = webdriver.Firefox(options=options)
 
+
 browser.get('https://www.covid19.act.gov.au/act-status-and-response/act-covid-19-exposure-locations')
 
 df = pd.read_html(browser.page_source)[0]
+
+browser.close()
 
 df = df[['Suburb', 'Exposure Location', 'Street', 'Date',
        'Arrival Time', 'Departure Time', 'Contact']]
 
 df.columns = ['Suburb', 'Location', 'Street', 'Date',
        'Arrival Time', 'Departure Time', 'Contact']
+
+
 
 try:
     df['Date_2'] = df['Date'].apply(lambda x: x.strip() + " 2021" if "2021" not in x else x.strip())
@@ -77,3 +82,4 @@ def makeTable(df):
     options=[{"colorScheme":"guardian","format": "scrolling","enableSearch": "TRUE","enableSort": "TRUE"}], chartName=f"{chart_key}{testo}")
 
 makeTable(df)
+
