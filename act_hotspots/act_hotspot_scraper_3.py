@@ -24,13 +24,13 @@ ceevee = ceevee.replace('",', "").strip()
 
 
 df = pd.read_csv(ceevee)
-#df = df[['Suburb', 'Exposure Site', 'Street', 'Date', 'Arrival Time', 'Departure Time', 'Contact']]
+#df = df[['', '', 'Location' , 'Address', 'Suburb', 'Date', 'Arrival Time', 'Departure Time', 'Contact']]
 #df.columns = ['Suburb', 'Location', 'Street', 'Date', 'Arrival Time', 'Departure Time', 'Contact']
-
 
 listicle = df.values.tolist() 
 
 for l in listicle:
+    del l[10]
     del l[5]
     del l[1]
     del l[0]
