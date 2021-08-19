@@ -37,7 +37,7 @@ for l in listicle:
 
 dfObj = pd.DataFrame(listicle, columns = ['Location' , 'Address', 'Suburb', 'Date', 'Arrival Time', 'Departure Time', 'Contact']) 
 
-dfObj.columns = ['Suburb', 'Location' , 'Address', 'Date', 'Arrival Time', 'Departure Time', 'Contact']
+dfObj = dfObj[['Suburb', 'Location' , 'Address', 'Date', 'Arrival Time', 'Departure Time', 'Contact']]
 
 ## ATTEMPT TO SORT BY LATEST:
 try:
